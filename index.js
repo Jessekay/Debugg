@@ -1,4 +1,4 @@
-const uName = document.getElementById('fullname');
+const Name = document.getElementById('fullname');
 const uEmail = document.getElementById('email_address');
 const text = document.getElementById('text_message');
 const pForm = document.getElementById('form');
@@ -18,4 +18,4 @@ window.addEventListener('load', () => {
   uName.value = userDataSerData.username;
   uEmail.value = userDataSerData.useremail;
   text.value = userDataSerData.message;
-});
+})

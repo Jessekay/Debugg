@@ -18,4 +18,4 @@ window.addEventListener('load', () => {
   uName.value = userDataSerData.username;
   uEmail.value = userDataSerData.useremail;
   text.value = userDataSerData.message;
-})
+});
